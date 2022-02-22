@@ -1242,4 +1242,13 @@ video {
   width: 100%;
   height: auto; }
 
+
+.raw-pre {
+  background-color:#c1c1c1;
+  color:#444;
+  border-radius:0;
+  padding:10px;
+  margin-bottom:20px;
+}  
+
 /*# sourceMappingURL=style.css.map */

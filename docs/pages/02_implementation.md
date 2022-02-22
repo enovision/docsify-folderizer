@@ -2,7 +2,7 @@
 
 ## Defining a folder structure
 
-<div style="background-color:#c1c1c1;color:#444;border-radius:0;padding:10px;">
+<div class="raw-pre">
 <pre>
 ```folderizer
 o [root]
@@ -52,7 +52,7 @@ o^.++ drunken-definition
 
 ## Another sample with indenting folders and files
 
-<div style="background-color:#c1c1c1;color:#444;border-radius:0;padding:10px;">
+<div class="raw-pre">
 <pre>
 ```folderizer
 o folder-zero
