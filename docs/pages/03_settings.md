@@ -1,13 +1,14 @@
-## Settings
+# Settings
 
-### Alternate settings
+## Customizing
 
-You can change some settings of this plugin. The place to do this is the index.html file of 
-your Docsify implementation.
+You can customize some default settings in this plugin. The place to do this is the `index.html` file of 
+your Docsify installation.
 
 In the `windows.$docsify` configuration you can add an entry `folderizer`. Within that object you can then
-change the settings like in the example below. Usually it is not required to modify if you like the style
-with the monochrome colored icons.
+modify the settings like in the example below. 
+
+Usually it is not required to modify if you like the style with the monochrome colored icons. 
 
 ```javascript
    window.$docsify = {
@@ -22,7 +23,10 @@ with the monochrome colored icons.
     }
 ```
 
-## Settings overview
+!> *Important* Be careful what you change for the plugin might stop presenting things in the right way or any way. First start with the default settings and only after that change to your taste.
+
+
+## Overview
 
 | Setting | Description | Default | 
 | --------- | ----------- | ----------- | 
