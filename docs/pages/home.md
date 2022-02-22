@@ -27,6 +27,18 @@ o [root]
 ++. log-22-02-2022.log
 ```
 
+This is a presentation with custom settings in the `index.html` file (see: [Settings](03_settings.md)).
+
+```javascript
+folderizer: {
+  colorName: '#ff9900',
+    iconColor: '#abdeff',
+    colors: {
+      file: '#ff9900'
+    }
+  }
+```
+
 ## This is how you define it
 
 <div class="raw-pre">
