@@ -49,3 +49,29 @@ o^.++ drunken-definition
 ```
 
 !> **Important** How the folder looks depends on your definition, there is no actual check or validation, it is just handling the presentation of your pseudo-coded folder structure.
+
+## Another sample with indenting folders and files
+
+<div style="background-color:#c1c1c1;color:#444;border-radius:0;">
+<pre>
+```folderizer
+o folder-zero
++o subfolder-one
+++. file-1.one
+++. file-2.one
++o subfolder-two
+++. file-1.two
+++. file-2.two
+``` 
+</pre>  
+</div>
+
+```folderizer
+o folder-zero
++o subfolder-one
+++. file-1.one
+++. file-2.one
++o subfolder-two
+++. file-1.two
+++. file-2.two
+``` 
