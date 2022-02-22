@@ -1,0 +1,29 @@
+{
+    "name": "docsify-folderizer",
+    "author": "Johan van de Merwe",
+    "version": "0.1.0",
+    "license": "MIT",
+    "homepage": "https://enovision.github.io/docsify-folderizer",
+    "description": "Docsify plugin to render a folder structure in docsify",
+    "source": "docs/plugins/docsify-folderizer/src/index.js",
+    "main": "docs/plugins/docsify-folderizer/dist/docsify-folderizer.js",
+    "files": [
+        "README.md",
+        "LICENSE",
+        "src/",
+        "dist/"
+    ],
+    "scripts": {
+        "watch": "parcel watch",
+        "build": "parcel build",
+        "fix": "eslint --fix docs/plugins/docsify-folderizer/src/*.js"
+    },
+    "devDependencies": {
+        "parcel": "~2.3.2",
+        "docsify-cli": "~4.4.3",
+        "eslint": "~8.9.0",
+        "eslint-config-google": "~0.14.0"
+    },
+    "dependencies": {
+    }
+}
