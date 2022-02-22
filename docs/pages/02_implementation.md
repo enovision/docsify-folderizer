@@ -33,9 +33,10 @@ o [root]
 | Definition | What it means |
 | --------- | ----------- | 
 | o top-level | a closed folder icon with the name `top-level` |
-| +o second-level | same as above but 1 level lower |
+| +o second-level | as above but 1 level lower and named `second-level` |
 | +. second-level.file | file on the same level as former sample |
 | +++++^ deep-level-open-folder | an open folder icon with the name `deep-level-open-folder` on a deep level |
+| o^.++ drunken-definition | Some drunken definition that makes no sense |
 
 ### How that would look
 
@@ -44,6 +45,7 @@ o top-level
 +o second-level
 +. second-level.file
 +++++^ deep-level-open-folder 
+o^.++ drunken-definition
 ```
 
 !> **Important** How the folder looks depends on your definition, there is no actual check or validation, it is just handling the presentation of your pseudo-coded folder structure.
