@@ -27,6 +27,9 @@
     });
 
     window.$docsify = {
+      requestHeaders: {
+        'cache-control': 'max-age=0',
+      },
       basePath: 'pages',
       repo: 'https://github.com/enovision/docsify-folderizer',
       alias: {
