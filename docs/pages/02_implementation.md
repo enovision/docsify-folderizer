@@ -24,9 +24,9 @@ o [root]
 | Character | Description | What it means | Icon |
 | --------- | ----------- | ----------- | ---- |
 | o         | lowercase "o" character | folder (closed) | <i class="icon icon-folder"></i> |
-| ^         | caret character         | folder (open) |  <i class="icon icon-folder"></i> |  
+| ^         | caret character         | folder (open) |  <i class="icon icon-folder-open"></i> |  
 | +         | plus character          | level (indention) |  |
-| .         | dot character           | file          |  <i class="icon icon-folder"></i> |  
+| .         | dot character           | file          |  <i class="icon icon-file"></i> |  
 
 ### Samples
 
