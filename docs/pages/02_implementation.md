@@ -50,7 +50,7 @@ o^.++ drunken-definition
 
 !> **Important** How the folder looks depends on your definition, there is no actual check or validation, it is just handling the presentation of your pseudo-coded folder structure.
 
-## Another sample with indenting folders and files
+## How indention looks
 
 <div class="raw-pre">
 <pre>
