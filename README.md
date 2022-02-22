@@ -19,3 +19,7 @@ It is an excerpt of the Fontawesome icons. You can define your own icon set as w
 ## Requirements
 
 This plugin requires a [Docsify](//docsify.js.org/#/?id=docsify) installation.
+
+## Documentation and Samples
+
+[Documentation](//enovision.github.io/docsify-folderizer/#/)
