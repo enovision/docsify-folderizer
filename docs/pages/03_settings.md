@@ -23,7 +23,7 @@ Usually it is not required to modify if you like the style with the monochrome c
     }
 ```
 
-!> *Important* Be careful what you change for the plugin might stop presenting things in the right way or any way. First start with the default settings and only after that change to your taste.
+!> **Important** Be careful what you change for the plugin might stop presenting things in the right way or any way. First start with the default settings and only after that change to your taste.
 
 
 ## Overview
