@@ -2,7 +2,7 @@
 
 ## Defining a folder structure
 
-<div style="background-color:#fefefe;color:#444;border-radius:0;">
+<div style="background-color:#c1c1c1;color:#444;border-radius:0;">
 <pre>
 ```folderizer
 o [root]
@@ -21,12 +21,12 @@ o [root]
 
 ## What does this mean?
 
-| Character | Description | What it means |
-| --------- | ----------- | ----------- |
-| o         | lowercase "o" character | folder (closed) |
-| ^         | caret character         | folder (open) |   
-| +         | plus character          | level (indention) |
-| .         | dot character           | file          |   
+| Character | Description | What it means | Icon |
+| --------- | ----------- | ----------- | ---- |
+| o         | lowercase "o" character | folder (closed) | <i class="icon icon-folder"></i> |
+| ^         | caret character         | folder (open) |  <i class="icon icon-folder"></i> |  
+| +         | plus character          | level (indention) |  |
+| .         | dot character           | file          |  <i class="icon icon-folder"></i> |  
 
 ### Samples
 
