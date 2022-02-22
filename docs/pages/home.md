@@ -2,8 +2,8 @@
 
 ## Source
 
-```text
-```folderizers
+<code>
+```folderizer
 o [root]
 +. index.html
 +. inferno.js
@@ -15,7 +15,7 @@ o [root]
 ++. log-20-02-2022.log
 ++. log-22-02-2022.log
 ``` 
-```
+</code>  
 
 
 ### Presentation
