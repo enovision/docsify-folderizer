@@ -29,7 +29,7 @@ o [root]
 
 ## This is how you define it
 
-<div class="pre-raw">
+<div class="raw-pre">
 <pre>
 ```folderizer
 o [root]
