@@ -1,10 +1,10 @@
 # Installation
 
-## Get it from Github
+## Github
 
 You can easily download this plugin from Github and add it to your own Docsify
 
-## Use a CDN
+## CDN
 
 You can also add the following links to your index.html file, using a CDN.
 
