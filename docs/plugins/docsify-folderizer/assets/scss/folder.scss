@@ -1,0 +1,96 @@
+@import 'variables.scss';
+
+.shortcode-thunder-folder {
+
+  background: $shortcode-thunder-bg-color;
+  color: $shortcode-thunder-color;
+  padding: $shortcode-thunder-margin;
+
+  .folder-container {
+    padding: $shortcode-thunder-folder-padding;
+    margin: $shortcode-thunder-folder-margin;
+
+    font-family: $shortcode-thunder-font-family;
+    font-size: $shortcode-thunder-font-size;
+    font-weight: $shortcode-thunder-font-weight;
+
+    .--icon-- {
+      padding-right: $shortcode-thunder-icon-padding-right;
+      padding-left: $shortcode-thunder-icon-padding-left;
+      top: $shortcode-thunder-icon-top;
+      position: relative;
+    }
+
+    .folder-wrapper {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .file-item,
+    .folder-item {
+      list-style-type: none;
+      position: relative;
+
+      .file-item-name,
+      .folder-item-name {
+        position: relative;
+      }
+
+      &.level-0 {
+        margin-left: -15px;
+      }
+
+      &.level-1 {
+        margin-left: 0.4em;
+      }
+
+      &.level-2 {
+        margin-left: $shortcode-thunder-level-margin-2;
+      }
+
+      @for $i from 3 through 10 {
+        &.level-#{$i} {
+          margin-left: $shortcode-thunder-level-margin-start-3 + ($shortcode-thunder-level-margin-incr * $i) - 1;
+        }
+      }
+
+      @for $i from 1 through 10 {
+        &.level-#{$i}:before {
+          position: absolute;
+          left: 0;
+          content: '';
+          display: block;
+          border-left: 1px solid $shortcode-thunder-line-color;
+          border-bottom: 1px solid $shortcode-thunder-line-color;
+          width: $shortcode-thunder-horizontal-line-width;
+        }
+      }
+
+      &.--first-- {
+        &:before {
+          // height: $shortcode-thunder-border-height-first;
+          // top: 0;
+
+          height: 0.8em;
+          top: 0em;
+        }
+      }
+
+      &.--rest-- {
+        &:before {
+          // height: $shortcode-thunder-border-height;
+          // top: -10px;
+
+          height: 2em;
+          top: -1.2em;
+        }
+      }
+
+    }
+
+    .folder-item {
+      font-weight: bold;
+    }
+  }
+}

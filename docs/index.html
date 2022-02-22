@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <base href="//enovision.github.io/docsify-folderizer">
+  <!-- <base href=""> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+  <!--- mermaid support -->
+  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    var num = 0;
+    mermaid.initialize({
+      startOnLoad: false
+    });
+
+    window.$docsify = {
+      basePath: 'pages',
+      repo: 'https://github.com/enovision/docsify-folderizer',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      homepage: 'home.md',
+      name: '<img src="media/logo_enovision_200.webp" data-origin="media/logo_enovision_200.webp" alt="Log" class="sidebar-logo">',
+      themeable: {
+        readyTransition: true, // default
+        responsiveTables: true  // default
+      },
+      auto2top: true,
+      loadSidebar: true,
+      subMaxLevel: 3,
+      loadNavbar: true,
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if (lang === "mermaid") {
+              return (
+                '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
+              );
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      },
+      tabs: {
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+      search: {
+        paths: 'auto',
+        placeholder: 'Search',
+        noData: 'No Results.',
+      },
+      timeUpdater: {
+        text: "---\nLast update: {docsify-updated}",
+        formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+      },
+      folderizer: {
+        iconPrefix: 'icon',
+        colorName: '#ff9900',
+        iconColor: '#abdeff',
+        colors: {
+          file: '#ff9900'
+        }
+      }
+    }
+  </script>
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- docsify-tabs (latest v1.x.x) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- docsify zoom-image lightbox... kind of-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- copy to clipboard -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- plantum UML -->
+  <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+
+  <!-- last updated -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-updated@1/src/time-updater.min.js"></script>
+
+  <!--- folderize plugin -->
+  <script src="plugins/docsify-folderizer/dist/docsify-folderizer.js"></script>
+  <link rel="stylesheet" href="plugins/docsify-folderizer/assets/css/style.css">
+
+  <!-- prism.js support-->
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+
+</body>
+
+</html>
