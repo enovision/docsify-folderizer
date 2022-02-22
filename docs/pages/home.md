@@ -27,7 +27,7 @@ o [root]
 
 This is how you define it
 
-<div style="background:#f1f1f1;color:#000;border-radius:0;">
+<div class="pre-raw">
 <pre>
 ```folderizer
 o [root]
