@@ -2,6 +2,8 @@
 
 ## Source
 
+This is how you define it
+
 <pre>
 ```folderizer
 o [root]
@@ -19,6 +21,8 @@ o [root]
 
 
 ### Presentation
+
+And this is how it looks in a browser
 
 ```folderizer
 o [root]
