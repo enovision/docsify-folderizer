@@ -2,6 +2,8 @@
 
 ## Source
 
+The source for a folderizer looks like this:
+
 ```text
 ```folderizer
 o [root]
@@ -19,6 +21,8 @@ o [root]
 
 
 ### Presentation
+
+And this is how it is going to looking to look in a browser:
 
 ```folderizer
 o [root]
