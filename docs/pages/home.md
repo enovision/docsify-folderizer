@@ -2,7 +2,7 @@
 
 ## Source
 
-<code>
+<pre>
 ```folderizer
 o [root]
 +. index.html
@@ -15,7 +15,7 @@ o [root]
 ++. log-20-02-2022.log
 ++. log-22-02-2022.log
 ``` 
-</code>  
+</pre>  
 
 
 ### Presentation
