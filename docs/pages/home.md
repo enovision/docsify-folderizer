@@ -4,7 +4,7 @@
 
 This is how you define it
 
-<pre>
+<pre style="background:#c1c1c1;">
 ```folderizer
 o [root]
 +. index.html
