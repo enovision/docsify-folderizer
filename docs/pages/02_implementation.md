@@ -30,12 +30,14 @@ o [root]
 
 ### Samples
 
-* o top-level (= a closed folder icon with the name `top-level`)
-* +o second-level (= same as above but 1 level lower)
-* +. second-level.file (= a file on the same level as former sample)
-* +++++^ deep-level-open-folder (= an open folder icon with the name `deep-level-open-folder` on a deep level)
+| Definition | What it means |
+| --------- | ----------- | 
+| o top-level | a closed folder icon with the name `top-level` |
+| +o second-level | same as above but 1 level lower |
+| +. second-level.file | file on the same level as former sample |
+| +++++^ deep-level-open-folder | an open folder icon with the name `deep-level-open-folder` on a deep level |
 
-### How that looks
+### How that would look
 
 ```folderizer
 o top-level
