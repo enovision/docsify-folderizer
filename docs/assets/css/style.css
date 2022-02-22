@@ -1249,6 +1249,10 @@ video {
   border-radius:0;
   padding:10px;
   margin-bottom:20px;
-}  
+}
+
+.raw-pre pre {
+  margin-bottom: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
